@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+}
+
+#ipSets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ip-list {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.ip-list p {
+    margin: 0;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.ip-list p:last-child {
+    border-bottom: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #495057;
+}
